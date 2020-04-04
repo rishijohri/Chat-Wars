@@ -1,0 +1,66 @@
+// console.log('New user connected')
+    // stash.test("test")
+    
+	// default username
+	// socket.username = "Anonymous"
+    // console.log(stash.defencerelease("wind-sphere")) 
+    // listen on new_message
+    // socket.on('new_message', (data) => {
+    //     broadcast the new message
+    //     var defnyou = data.youstats.split(" ,* ") 
+    //     var defnopp = data.oppstats.split(" ,* ")
+    //     var supmastrem = " ,* "
+    //     console.log("recieved server")
+    //     var hlth = healthy(data.spell)[0];
+    //     var enrgy = healthy(data.spell)[1]+dmges(data.spell)[1];
+    //     var dmg = dmges(data.spell)[0]
+    //     if (stash.attacknature(data.spell)) {
+    //         dmg = stash.damagecount(stash.findelement(data.spell), stash.attacknature(data.spell))
+    //         if (data.user === "one") {
+    //             for (var i=1; i<= defnopp.length; i++) {
+    //                 if (stash.defenceselect(stash.findelement(data.spell), defnopp[i])) {
+    //                     dmg = dmg - stash.defencerelease(defnopp[i])
+    //                     var deftorem = defnopp[i]
+    //                     if (dmg< 0 ) {
+    //                         dmg = 0
+    //                     }
+    //                     var mastrem = defnopp.splice(i, i)
+    //                     var supmastrem = mastrem.join(" ,* ")
+    //                     break;
+    //                 }
+    //             }
+    //         } 
+    //         if (data.user === "two") {
+    //             for (var i=1; i<= defnyou.length; i++) {
+    //                 if (stash.defenceselect(stash.findelement(data.spell), defnyou[i])) {
+    //                     dmg = dmg - stash.defencerelease(defnyou[i])
+    //                     var deftorem = defnyou[i]
+    //                     if (dmg< 0 ) {
+    //                         dmg = 0
+    //                     }
+    //                     var mastrem = defnopp.splice(i, i)
+    //                     var supmastrem = mastrem.join(" ,* ")
+    //                     break;
+    //                 }
+                
+                   
+                    
+    //             }
+    //         }
+    //     }
+    //     if (stash.defencenature(data.spell)) { // adds defence spell to stats
+    //         var brick = data.spell.split(" ")
+    //         var newstr =  brick[0]+"-"+brick[1]
+    //         if (data.user==="one") {
+    //             defnyou.push(newstr)
+    //             var mastdef = defnyou.join(" ,* ")
+    //         }
+    //         if (data.user ==="two") {
+    //             defnopp.push(newstr)
+    //             var mastdef = defnopp.join(" ,* ")
+    //         }
+            
+    //     }
+    //     io.sockets.emit('new_message', {spell : data.spell, key: data.key, user : data.user, hlth: hlth, enrgy: enrgy, dmg: dmg, defadd: mastdef, defrem: supmastrem});
+    //     console.log("emitted server "+ data.key)
+    // })
